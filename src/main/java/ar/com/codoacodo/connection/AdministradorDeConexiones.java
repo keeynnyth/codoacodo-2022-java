@@ -1,12 +1,11 @@
-
 package ar.com.codoacodo.connection;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class AdministradorDeConexiones {
 
 	public static Connection getConnection() {
+		/*String url = "jdbc:mysql://127.0.0.1:3306/codo-a-codo?serverTimeZone=UTC&userSSL=false";
 		/*String url = "jdbc:mysql://127.0.0.1:3306/codo-a-codo?serverTimeZone=UTC&userSSL=false";
 		String username = "root";
 		String password = "root";
@@ -23,12 +22,13 @@ public class AdministradorDeConexiones {
 		try {
 			Class.forName(driverName);//carga en memoria el Diver
 			con = DriverManager.getConnection(url,user,password);
+			con = DriverManager.getConnection(url,user,password);
 		}catch(Exception e) {
 			e.printStackTrace();//se que paso lo o porque fallo.
 		}
 		return con;
 	}
-
+	
 	public static void main(String[] args) {
 		Connection con = AdministradorDeConexiones.getConnection();//f5
 		if(con != null) {
