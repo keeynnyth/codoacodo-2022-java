@@ -22,7 +22,7 @@ public class AdministradorDeConexiones {
 		try {
 			Class.forName(driverName);//carga en memoria el Diver
 			con = DriverManager.getConnection(url,user,password);
-			con = DriverManager.getConnection(url,user,password);
+		
 		}catch(Exception e) {
 			e.printStackTrace();//se que paso lo o porque fallo.
 		}
