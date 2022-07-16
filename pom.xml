@@ -6,7 +6,7 @@
 	<artifactId>codoacodo-back</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<description>codoacodo-back</description>
+	<description>codoacodo-2022-java</description>
 	<properties>
 
 		<maven.compiler.source>11</maven.compiler.source>
@@ -47,7 +47,7 @@
 	</dependencies>
 	
 	 <build>
-    <finalName>codoacodo-back</finalName>
+    <finalName>codoacodo-2022-java</finalName>
 	<plugins>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
